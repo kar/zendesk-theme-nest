@@ -708,7 +708,7 @@ main {
 .subfooter {
   width: 100%;
   padding: 30px 20px;
-  background: @color_subfooter;
+  background: $color_subfooter;
   text-align: center;
 }
 
@@ -835,7 +835,7 @@ main {
 /***** Hero component *****/
 
 .hero {
-  background: $color_label;
+  background: $color_separator;
   background-position: center;
   background-size: cover;
   height: 100px;
