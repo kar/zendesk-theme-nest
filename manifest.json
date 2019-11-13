@@ -1,53 +1,67 @@
 {
-  "name": "Copenhagen",
-  "author": "Zendesk",
-  "version": "0.0.1",
+  "name": "Blokada",
+  "author": "Blokada Team",
+  "version": "0.0.2",
   "api_version": 1,
   "settings": [
     {
       "label": "Colors",
       "variables": [
         {
-          "identifier": "color_1",
+          "identifier": "color_brand",
           "type": "color",
           "description": "Brand color for major navigational elements",
           "label": "Brand color",
-          "value": "#7B7B7B"
+          "value": "#FF5F00"
         },
         {
-          "identifier": "color_skip",
-          "type": "color",
-          "description": "Make thing ugly",
-          "label": "Skip color",
-          "value": "#11f1f1"
-        },
-        {
-          "identifier": "color_2",
+          "identifier": "color_brand2",
           "type": "color",
           "description": "Brand color for hover and active states",
           "label": "Brand text color",
-          "value": "#404040"
+          "value": "#FFFFFF"
         },
         {
-          "identifier": "body_text",
+          "identifier": "color_text",
           "type": "color",
           "description": "Text color for body and heading elements",
           "label": "Text color",
-          "value": "#333333"
+          "value": "#FFFFFF"
         },
         {
-          "identifier": "color_4",
+          "identifier": "color_link",
           "type": "color",
           "description": "Text color for link elements",
           "label": "Link color",
-          "value": "#1A74B0"
+          "value": "#FF5F00"
         },
         {
-          "identifier": "color_5",
+          "identifier": "color_background",
           "type": "color",
           "description": "Background color of your Help Center",
           "label": "Background color",
-          "value": "#FFFFFF"
+          "value": "#242424"
+        },
+        {
+          "identifier": "color_separator",
+          "type": "color",
+          "description": "Color used for separating and decorative elements",
+          "label": "Separator color",
+          "value": "#444"
+        },
+        {
+          "identifier": "color_background2",
+          "type": "color",
+          "description": "Color used for some secondary elements",
+          "label": "Background color 2",
+          "value": "#242424"
+        },
+        {
+          "identifier": "color_background3",
+          "type": "color",
+          "description": "Color used yet other elements",
+          "label": "Background color 3",
+          "value": "#444"
         }
       ]
     },
@@ -55,12 +69,16 @@
       "label": "Fonts",
       "variables": [
         {
-          "identifier": "font_1",
+          "identifier": "font_headings",
           "type": "list",
           "description": "Font for headings",
           "label": "Heading",
           "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
           "options": [
+            {
+              "label": "Blokada",
+              "value": "Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
             {
               "label": "System",
               "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
@@ -128,12 +146,16 @@
           ]
         },
         {
-          "identifier": "font_2",
+          "identifier": "font_text",
           "type": "list",
           "description": "Font for body text",
           "label": "Text",
           "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
           "options": [
+            {
+              "label": "Blokada",
+              "value": "'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
             {
               "label": "System",
               "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
