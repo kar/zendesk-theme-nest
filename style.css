@@ -1066,8 +1066,8 @@ main {
   margin-bottom: 8px;
   padding: 16px 10px;
   border-radius: 3px;
-  background: #F8F8F8;
-  color: #666;
+  background: $color_nav_button_bg;
+  color: $color_nav_button;
   font-size: 18px;
   text-align: center;
   font-weight: 600;

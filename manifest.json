@@ -1,7 +1,7 @@
 {
   "name": "Blokada",
   "author": "Blokada Team",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "api_version": 1,
   "settings": [
     {
@@ -76,6 +76,20 @@
           "description": "Color used for some label background",
           "label": "Label color",
           "value": "#313131"
+        },
+        {
+          "identifier": "color_nav_button",
+          "type": "color",
+          "description": "Color used for nav buttons",
+          "label": "Nav button color",
+          "value": "#C0C0C0"
+        },
+        {
+          "identifier": "color_nav_button_bg",
+          "type": "color",
+          "description": "Color used for nav button bg",
+          "label": "Nav bg button color",
+          "value": "#2e2e2e"
         }
       ]
     },
