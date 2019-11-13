@@ -1,7 +1,7 @@
 {
   "name": "Blokada",
   "author": "Blokada Team",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "api_version": 1,
   "settings": [
     {
@@ -75,7 +75,7 @@
           "type": "color",
           "description": "Color used for some label background",
           "label": "Label color",
-          "value": "#313131"
+          "value": "#393939"
         },
         {
           "identifier": "color_nav_button",
