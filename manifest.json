@@ -1,7 +1,7 @@
 {
   "name": "Blokada",
   "author": "Blokada Team",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "api_version": 1,
   "settings": [
     {
@@ -47,7 +47,7 @@
           "type": "color",
           "description": "Color used for separating and decorative elements",
           "label": "Separator color",
-          "value": "#444"
+          "value": "#313131"
         },
         {
           "identifier": "color_background2",
@@ -57,11 +57,25 @@
           "value": "#242424"
         },
         {
-          "identifier": "color_background3",
+          "identifier": "color_details",
           "type": "color",
           "description": "Color used yet other elements",
-          "label": "Background color 3",
-          "value": "#444"
+          "label": "Details color",
+          "value": "#FF5F00"
+        },
+        {
+          "identifier": "color_subfooter",
+          "type": "color",
+          "description": "Color used for subfooter",
+          "label": "Subfooter color",
+          "value": "#313131"
+        },
+        {
+          "identifier": "color_label",
+          "type": "color",
+          "description": "Color used for some label background",
+          "label": "Label color",
+          "value": "#313131"
         }
       ]
     },
@@ -73,7 +87,7 @@
           "type": "list",
           "description": "Font for headings",
           "label": "Heading",
-          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+          "value": "Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif",
           "options": [
             {
               "label": "Blokada",
@@ -150,7 +164,7 @@
           "type": "list",
           "description": "Font for body text",
           "label": "Text",
-          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+          "value": "'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
           "options": [
             {
               "label": "Blokada",
