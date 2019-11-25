@@ -1,9 +1,16 @@
 {
   "name": "Blokada",
   "author": "Blokada Team",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "api_version": 1,
   "settings": [
+    {
+      "identifier": "show_article_comments",
+      "type": "checkbox",
+      "description": "article_comments_description",
+      "label": "article_comments_label",
+      "value": true
+    },
     {
       "label": "Colors",
       "variables": [
