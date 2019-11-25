@@ -2228,6 +2228,7 @@ main {
 .actions .dropdown-toggle {
   font-size: 0;
   margin: 15px 0;
+  background-color: $color_background;
 }
 
 .actions .dropdown-toggle:hover::before,
