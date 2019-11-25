@@ -1,9 +1,19 @@
 {
   "name": "Blokada",
   "author": "Blokada Team",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "api_version": 1,
   "settings": [
+    {
+      "label": "community",
+      "variables": [{
+        "identifier": "show_community",
+        "type": "checkbox",
+        "description": "Show community link in nav bar",
+        "label": "Show community link",
+        "value": true
+      }]
+    },
     {
       "label": "article_page_group_label",
       "variables": [{
